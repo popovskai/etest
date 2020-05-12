@@ -3,12 +3,14 @@
 Упатство за стартување на апликацијата:
 - Преземање локално на etest repository
 - Отворање и run на spring апликацијата (преку фајлот resources/data.sql при првиот run се креира user-от со
+
 {
 	"username": "user@test.com",
 	"password": "password",
 	"confirmPassword": "password",
 	"fullName": "Test User"
 }
+
 endpoint за регистрација на корисник е http://localhost:8080/api/users/register 
 json => { 
 "username": "user@test.com",
