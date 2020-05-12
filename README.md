@@ -12,11 +12,13 @@
 }
 
 endpoint за регистрација на корисник е http://localhost:8080/api/users/register 
+
 json => { 
 "username": "user@test.com",
 	"password": "password",
 	"confirmPassword": "password",
 	"fullName": "Test User" }
+	
 - Oтворање на react апликацијата
 - npm install преку командна линија 
 - npm start  преку командна линија
